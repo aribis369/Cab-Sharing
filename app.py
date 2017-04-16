@@ -1,6 +1,6 @@
 from flask import Flask, render_template, url_for, request, session, redirect
 from flask_session import Session
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 import MySQLdb
 import json
 import os
